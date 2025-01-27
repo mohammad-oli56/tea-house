@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea-House</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <main class=" lg:max-w-screen-xl lg:mx-auto px-3 lg:px-24">
+
+        <header class="lg:flex mb-20 py-4 items-center ">
+            <div>
+                <h2 class="text-5xl md:text-7xl font-extrabold aaa">It's good <br>
+                    tea time at The Tea <br>House</h2>
+                    <br>
+                <p class="text-[#777777] w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p> <br>
+                <button class="bg-gradient-to-r from-[#FF0000] to-[#FF8938] text-white rounded-md py-4 px-7 font-bold">Explore More</button>
+            </div>
+                
+            <div class="relative">
+              <img src="banner.png" alt="">
+              <div class="bg-white box shadow-2xl px-4 py-4 rounded-lg absolute lg:top-72 lg:left-28 top-48 left-28">
+                <h3 class="font-bold text-2xl">5.00</h3>
+                <p class="text-gray-500 ">Trust Pilot Ratings</p>
+              </div>
+            </div>
+        </header>
+
+        <section class="">
+          <div class="text-center my-8">
+            <h2 class="font-bold text-4xl pb-5">Our Featured Products</h2>
+            <p class="text-gray-500 pb-8 ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+
+          <div class="mb-7 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5 mt-7">
+            <div class="rounded-lg shadow-md bg-gray-40 overflow-hidden  text-center">
+              <img class="mx-auto pb-7 pt-4" src="tea-1.png" alt="">
+              <h3 class="font-bold">Milk Tea</h3>
+              <p class="pb-7 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+            <div class="rounded-lg shadow-md bg-gray-40 overflow-hidden  text-center">
+              <img class="mx-auto pb-7 pt-4" src="tea-2.png" alt="">
+              <h3 class="font-bold">Black Tea</h3>
+              <p class="pb-7 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+
+            <div class="rounded-lg shadow-md bg-gray-40 overflow-hidden  text-center">
+              <img class="mx-auto pb-7 pt-4" src="tea-3.png" alt="">
+              <h3 class="font-bold">Lemon Tea</h3>
+              <p class="pb-7 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+
+            <div class="rounded-lg shadow-md bg-gray-40 overflow-hidden  text-center">
+              <img class="mx-auto pb-7 pt-4" src="tea-4.png" alt="">
+              <h3 class="font-bold">Green Tea</h3>
+              <p class="pb-7 text-gray-500">Creamer could be replaced <br> by fresh milk</p>
+            </div>
+          </div>
+
+        </section>
+
+    </main>
+</body>
+</html>

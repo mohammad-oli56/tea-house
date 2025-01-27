@@ -1,0 +1,16 @@
+.aaa{
+    background: linear-gradient(90deg,#d15be382,#0223ff,#d15be382);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: text-animation 2s infinite;
+}
+
+@keyframes text-animation {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 200%;
+    }
+}
